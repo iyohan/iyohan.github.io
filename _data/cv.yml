@@ -1,189 +1,208 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Yohan Lee
+  email: iyohan@alumni.kaist.ac.kr
+  location: Seoul, South Korea
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Robotics (Perception and HRI), Computer Vision, Augmented Reality, and Human-Computer Interaction
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  social_networks: []
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Korea Advanced Institute of Science and Technology (KAIST)
+        location: Daejeon, Republic of Korea
+        area: Computer Science
+        studyType: M.S.
+        start_date: 2022-03
+        end_date: 2024-08
+        score: "GPA: 3.60 / 4.3"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: A User-defined Grid Coordinate for Virtual Object Positioning in Outdoor Mobile Augmented Reality"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Handong Global University
+        location: Pohang, Republic of Korea
+        area: Computer Science and Electrical Engineering
+        studyType: B.S.
+        start_date: 2018-03
+        end_date: 2022-02
+        score: "GPA: 4.07 / 4.5 (Magna Cum Laude)"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Biomedical Informatics Lab (BMI Lab), Seoul National University Hospital
+        position: Researcher (Medical AI)
+        location: Seoul, Republic of Korea
+        start_date: 2025-04
+        end_date: 2026-03
+        summary: "Advisor: Kwangsoo Kim"
         highlights:
-          - Relativity
-          - Description 2.
+          - Conducted research on pediatric respiratory sound classification.
+          - Worked on transformer-based chronic kidney disease prognosis prediction.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Networking and Mobile Systems Lab (NMSL), KAIST
+        position: Research Intern
+        location: Daejeon, Republic of Korea
+        start_date: 2024-06
+        end_date: 2024-08
+        summary: "Advisor: Sung-Ju Lee"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Worked on enhancing visual reasoning in multimodal LLMs by integrating chain-of-thought mechanisms for autoregressive inference.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Wireless Mobile Internet and Services Laboratory (WINSLAB), KAIST
+        position: Master Student
+        location: Daejeon, Republic of Korea
+        start_date: 2022-03
+        end_date: 2024-08
+        summary: "Advisor: Myungchul Kim"
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Developed a voxel-based grid coordinate system for precise outdoor AR object placement.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Deep Learning Lab (DLLab), Handong Global University
+        position: Undergraduate Research Assistant
+        location: Pohang, Republic of Korea
+        start_date: 2020-07
+        end_date: 2021-12
+        summary: "Advisor: Injung Kim"
+        highlights:
+          - Developed ML-based anomaly detection pipelines for industrial sensor data in collaboration with POSCO.
+          - Worked on WICWIU-based model porting and lightweight model development.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: ClassU
+        position: LLM Prompt Engineer (Contract)
+        location: Seoul, Republic of Korea
+        start_date: 2024-11
+        end_date: 2025-03
+        highlights:
+          - Worked on building an LLM-based agentic system for automated machine learning and data analysis.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: A Voxel-based Grid Coordinate for Virtual Object Positioning in Outdoor Mobile Augmented Reality
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Yohan Lee
+        publisher: 2026 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshop
+        releaseDate: 2026
+        summary: Presented at IEEE VR 2026 Posters.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Chronic Kidney Disease Prognosis Prediction using Transformer
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - Yohan Lee
+          - DongGyun Kang
+          - SeHoon Park
+          - Sa-Yoon Park
+          - Kwangsoo Kim
+        publisher: arXiv preprint arXiv:2511.02340
+        releaseDate: 2025
+        summary: Under review.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: A User-defined Grid Coordinate for Virtual Object Positioning in Outdoor Mobile Augmented Reality
+        summary: Master thesis research at WINSLAB, presented at IEEE VR 2026 Posters.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Developed user-defined grid coordinates on voxelized building surfaces to resolve location ambiguity in outdoor mobile AR.
+          - Combined intuitive relative positioning with precise absolute coordinates.
+        start_date: 2023-06
+        end_date: 2024-06
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Neural Radiance Fields for Accelerated Rendering in Dynamic Scenes
+        summary: Coursework project for CS570 Artificial Intelligence and Machine Learning.
+        highlights:
+          - Developed a NeRF-based deep learning model for nearly real-time rendering in dynamic scenes with a few training images.
+        start_date: 2022-03
+        end_date: 2022-06
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: WICWIU Based Computationally Efficient Learning Algorithm Development
+        summary: Research project at DLLab in collaboration with ETRI.
+        highlights:
+          - Worked on porting a model from PyTorch to WICWIU.
+          - Contributed to WICWIU framework development.
+        start_date: 2021-08
+        end_date: 2021-12
+
+      - name: Deep Learning / Machine Learning Based Anomaly Detection for Smart Factory
+        summary: Research project at DLLab in collaboration with POSCO.
+        highlights:
+          - Developed ML-based anomaly detection algorithms for industrial sensor data.
+          - Built preprocessing pipelines and ran model experimentation.
+        start_date: 2020-07
+        end_date: 2021-07
+
+      - name: Semi-Supervised Learning based Pediatric Abnormal Respiratory Sound Classification
+        summary: Research project at SNUH BMI Lab.
+        highlights:
+          - Developed a deployable and robust respiratory sound classification system for pediatric patients.
+          - Leveraged semi-supervised learning and continual adaptation.
+        start_date: 2025-04
+
+    Skills:
+      - name: Programming Languages
+        icon: fa-solid fa-code
+        keywords: "Python, C, C#, Kotlin, MySQL, Matlab"
+
+      - name: Frameworks and Libraries
+        icon: fa-solid fa-toolbox
+        keywords: "Unity, Android Studio, PyTorch, Scikit-Learn, NumPy, Pandas, Matplotlib, Seaborn"
+
+    Teaching:
+      - company: School of Computing, KAIST
+        position: Teaching Assistant
+        location: Daejeon, Republic of Korea
+        start_date: 2023-03
+        end_date: 2023-06
+        summary: "Course: CS101-23S (Programming 101)"
+
+      - company: Handong Institution for Educational Development Department, Handong Global University
+        position: Tutor for North Korean Defector
+        location: Pohang, Republic of Korea
+        start_date: 2020-07
+        end_date: 2020-08
+        summary: "Course: C Programming"
+
+      - company: Handong Institution for Educational Development, Handong Global University
+        position: Tutor for Student with Disability
+        location: Pohang, Republic of Korea
+        start_date: 2020-03
+        end_date: 2020-06
+        summary: "Course: C Programming"
+
+      - company: Global Leadership School, Handong Global University
+        position: Teaching Assistant
+        location: Pohang, Republic of Korea
+        start_date: 2019-03
+        end_date: 2019-12
+        summary: "Course: Introductory Physics"
+
+    Awards:
+      - title: Academic Scholarship (Top 3%)
+        date: 2021-08
+        awarder: Handong Global University
+
+      - title: 2nd Prize, AppDev Contest, Bizflow X HGU
+        date: 2020-12
+        awarder: Handong Global University
+
+      - title: 2nd Prize, HGU SW Festival Problem Solving Idea Contest
+        date: 2020-12
+        awarder: Handong Global University
+
+      - title: Academic Scholarship (Top 15%)
+        date: 2020-02
+        awarder: Handong Global University
+
+      - title: 1st Prize, HGU 2019 Practical Project Hackathon
+        date: 2019-12
+        awarder: Handong Global University
+
+      - title: Academic Scholarship (Top 15%)
+        date: 2019-08
+        awarder: Handong Global University
+
+      - title: Academic Scholarship (Top 3%)
+        date: 2019-02
+        awarder: Handong Global University
+
+      - title: 3rd Prize, Handong C Contest
+        date: 2018-12
+        awarder: Handong Global University
+
+      - title: Academic Scholarship (Top 5%)
+        date: 2018-08
+        awarder: Handong Global University
