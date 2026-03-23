@@ -29,19 +29,31 @@ latest_posts:
 ---
 
 <p style="text-align: center; font-weight: 600; margin-bottom: 1.5rem;">
-I'm looking for an internship / RA / PhD position!
+I'm looking for collaboration!<br>(possibly leading to an internship / RA / PhD position)
 </p>
-
-I'm pivoting to Robotics.
 
 My research mainly focuses on Human-Robot Spatial Communication at the intersection of Robotics, XR, and 3D Computer Vision.
 
+---
+Recently, I presented my work <i>"A Voxel-based Grid Coordinate for Virtual Object Positioning in Outdoor Mobile Augmented Reality"</i> at IEEE VR 2026 Posters. In this work, I proposed a voxel-based surface grid coordinate system that bridges human-friendly spatial references and geographic coordinates for outdoor mobile AR.  
+(Video: [YouTube demo](https://youtu.be/Ric-UopzN6w))
+
 My background includes:
+- ML in Industrial Time Series (with POSCO), AR + HCI (Master's thesis and IEEE VR Poster), VLM, and Medical AI.
 
-- Recently, in August 2024, I worked on a project that aimed to develop a novel framework enabling multimodal LLMs to incorporate Chain-of-Thought reasoning during inference, improving visual reasoning performance.
-- For my master's thesis from 2022 to 2023, I worked on a mobile outdoor AR system that assists general users in placing virtual content and communicating location information.
-- From 2020 to 2021, I developed ML and DL models tailored for real time-series data in the steel industry in collaboration with POSCO, as well as lightweight recognition models for mobile devices with ETRI.
+Please look at my [CV](/cv) for more details.
 
-I have a genuine interest in exploring how Robotics, XR, and AI can improve the way we communicate spatial information with robots and intelligent systems. I believe this direction can help pave the way toward a future where people and robots collaborate more naturally.
+---
+I have a few ideas for [future research directions](/future-research-ideas):
+  
+1. HRI + XR
+   - I am interested in how robots can use XR to actively generate spatial cues, such as anchors or grids, to support collaborative grounding in free space. More broadly, I want to explore interaction designs that make human-robot spatial communication more negotiable, transparent, and aligned with human perception.
+   - I submitted a 4 page short paper to HRI 2026 LRB (I got a good review on ideas, but it was not accepted due to the lack of actual experiments), and I am planning to keep working on it into a full paper.
+<br><br>
+2. City-scale spatial representations for human-robot communication
+    - I am also interested in extending surface-level spatial representations toward city-scale environments, where humans and robots need to communicate about locations across multiple levels of scale. This direction asks how large outdoor spaces can be structured into representations that remain both machine-usable and human-understandable.
 
-If you are interested in working with me on research, please feel free to contact me at [iyohan@alumni.kaist.ac.kr](mailto:iyohan@alumni.kaist.ac.kr) or [iyohan.john@gmail.com](mailto:iyohan.john@gmail.com).
+---
+If you are interested in talking with me on anything (coffee chat, research collaborations, job opportunities, or whatever), please feel free to contact me at [iyohan@alumni.kaist.ac.kr](mailto:iyohan@alumni.kaist.ac.kr) / [iyohan.john@gmail.com](mailto:iyohan.john@gmail.com) or via [LinkedIn](https://www.linkedin.com/in/iyohan/).
+
+---

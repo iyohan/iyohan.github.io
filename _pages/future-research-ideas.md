@@ -2,18 +2,30 @@
 layout: page
 title: Future Research Ideas
 permalink: /future-research-ideas/
-description: Notes on problems, directions, and questions I want to explore.
+description: 
 nav: true
 nav_order: 4
 ---
 
-This page collects research directions I want to develop further.
-
 ## 1. From Selection to Generation: Restoring the Frame of Reference for Collaborative Spatial Grounding in Free Space
 
+<div class="row justify-content-center">
+  <div class="col-sm-5">
+    {% include figure.liquid
+      loading="eager"
+      path="assets/img/hri_lbr_fig1.png"
+      title="HRI LBR Figure 1"
+      class="img-fluid rounded z-depth-1"
+    %}
+  </div>
+</div>
+
+**(Abstract)**  
 Establishing a shared Frame of Reference (FoR) is critical for spatial reference in human-robot collaboration. However, referencing a point or region in free space is structurally ambiguous because the absence of a functional relatum (reference object) causes the FoR to collapse. Current selection-based approaches cannot resolve this relatum-less condition, as they treat an essentially ill-posed problem as an estimation task. To resolve this, this work proposes a framework where the robot actively generates and visualizes an intrinsic relatum, such as virtual anchors or grids, using augmented reality. This transforms ambiguous free-space descriptions into well-defined reference tasks. It enables precise and effective bidirectional negotiation for spatial reference. Furthermore, this work highlights appropriateness as a critical design dimension to evaluate how well the generated cues align with human perception and task context. Overall, this direction argues for a shift from passive selection to active generation in spatial grounding.
 
 Video: [YouTube demo](https://youtu.be/sm5bPqOymZk)
+
+---
 
 ## 2. Toward City-scale Spatial Representations for Human-Robot Communication
 
