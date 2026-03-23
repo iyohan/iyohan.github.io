@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
+        },{id: "nav-projects-fixing",
+          title: "Projects (Fixing)",
           description: "Selected research and development projects.",
           section: "Navigation",
           handler: () => {
@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-future-research-ideas",
           title: "Future Research Ideas",
-          description: "Notes on problems, directions, and questions I want to explore.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/future-research-ideas/";
@@ -411,7 +411,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-a-voxel-based-grid-coordinate-for-virtual-object-positioning-in-outdoor-mobile-augmented-reality",
           title: 'A Voxel-based Grid Coordinate for Virtual Object Positioning in Outdoor Mobile Augmented Reality...',
-          description: "Presented at IEEE VR 2026 Posters; explores human-friendly spatial referencing for outdoor AR.",
+          description: "This work explores human-friendly spatial referencing for outdoor AR. This work was presented at IEEE VR 2026 Posters.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-generative-spatial-grounding-in-free-space",
